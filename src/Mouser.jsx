@@ -8,6 +8,7 @@ export const fetchSearch = async ({ valueInputSearcch }) => {
     SearchByKeywordRequest: {
       keyword: valueInputSearcch,
       records: 0,
+      MaxLength:80,
       startingRecord: 0,
       searchOptions: "string",
       searchWithYourSignUpLanguage: "string",
